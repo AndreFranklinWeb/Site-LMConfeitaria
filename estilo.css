@@ -151,11 +151,11 @@
     width: 33.33%;
     
 
-.row {
+/*.row {
     content: "";
     clear: both;
     display: table;    
-  }
+}*/
 
 #myFooter .social-networks {
     text-align: center;
