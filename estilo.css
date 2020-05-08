@@ -4,20 +4,16 @@
         min-height: 100vh;
         font: normal 16px sans-serif;
         font-family: verdana, sans-serif;
-   
-        
     }
     
     h1{
         color: #fef6ad;
         text-shadow:-1px -1px #fef6ad, 1px 1px #333
-        
       }
     
     h2{
         color: #632010; 
         text-shadow:-1px -1px #fef6ad, 1px 1px #333
-        
       }
     
     h3{
@@ -39,11 +35,8 @@
     .navbar {      
         background-color: #632010;
         margin-bottom: 0;
-        border-radius: 0; 
-        
+        border-radius: 0;   
       }
-    
-   
     
     /* Add a gray background color and some padding to the footer */
     footer {
@@ -51,8 +44,6 @@
         padding: 10px;
         font:  bold 15px arial, verdana, sans-serif;
         color: #fef6ad;
-        
-        
       }  
     
   .carousel-inner img {
