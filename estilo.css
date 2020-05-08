@@ -39,7 +39,8 @@
     .navbar {      
         background-color: #632010;
         margin-bottom: 0;
-        border-radius: 0;
+        border-radius: 0; 
+        
       }
     
    
@@ -151,16 +152,15 @@
     width: 33.33%;
     
 
-/*.row {
-    content: "";
+.row {
+    /*content: "";
     clear: both;
-    display: table;    
-}*/
+    display: table; */   
+}
 
 #myFooter .social-networks {
     text-align: center;
     padding-right: 5px;
-        
 }
 
 div.box {
