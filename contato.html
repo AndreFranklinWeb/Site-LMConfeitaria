@@ -93,37 +93,65 @@
         </a>
 
     </div>
-    <br>
-          
+    
     <br>
 
-    <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
-      <input type="hidden" name="recipient" value="liginhamoraesweb@gmail.com"> <!-- Pode ser qualquer endereço de email -->
-      <input type="hidden" name="redirect" value="http://lmconfeitaria.epizy.com/"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
-      <input type="hidden" name="subject" value="Bolo muito bom">  <!-- Assunto da mensagem -->
-      <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
-      
-      <p> 
-      Nome:<br /> 
-      <input type="text" size="30" name="nome"> 
-      </p>   
-      
-      <p>
-      E-mail:<br /> 
-      <input type="text" size="30" name="replyto"> 
-      </p>   
-      
-      <p> 
-      Comentários:<br /> 
-      <input type="text" size="35" name="Comentarios"> 
-      </p>   
-      
-      <p> 
-      <input type="submit" name="BTEnvia" value="Enviar"> 
-      <input type="reset" name="BTApaga" value="Apagar"> </p> 
-      </form>
+     <!-- Email -->
+    
+     <main>
+			<section class="contato">
+				<div class="container">
+					<form>
+						<div class="cols">
+							<div class="col">
+								<div class="form-group">
+									<input type="text" placeholder="Nome" required>
+								</div>
+							</div>
+							
+							<div class="col">
+								<div class="form-group">
+									<input type="email" placeholder="E-mail">
+								</div>
+							</div>
 
-<br>
+
+							<div class="col">
+								<div class="form-group">
+									<input placeholder="Telefone" type="number">
+								</div>
+							</div>
+							
+							<div class="col">
+								<div class="form-group">
+									<select>
+										<option>Selecione uma opção</option>
+										<option>Orçamento</option>
+										<option>Sugestão</option>
+										<option>Outras Informações</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<textarea placeholder="Preencha suas dúvidas"></textarea>
+						</div>
+
+						<div class="form-group">
+							<button class="botao medio"><i class="fa fa-arrow-right"></i> Enviar Contato</button>
+						</div>
+
+						<p class="bg-success">
+						<i class="fa fa-info-circle"></i> Seu contato foi enviado com sucesso.</p>
+
+						<p class="bg-danger"><i class="fa fa-info-circle"></i> Preencha todos os campos obrigatórios.</p>
+					</form>
+				</div>
+			</section>
+		</main>
+
+    <br>
 
 <footer id="myFooter">
   <div class="container">
@@ -172,7 +200,9 @@
         <p>Copyright © 2019-2020 | <a href="http://lmconfeitaria.epizy.com">LM Confeitaria</a></p>        
       </div>
   </div>
-  
+
+  <br>
+    
 </footer>
 </body>
 </html>
