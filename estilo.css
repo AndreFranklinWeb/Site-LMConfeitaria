@@ -1,4 +1,9 @@
-
+@charset "UTF-8";
+@font-face {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  src: url();
+}
+    
     body {
         background-color: #fef6ad;
         min-height: 100vh;
@@ -42,8 +47,9 @@
     footer {
         background-color: #632010;	  
         padding: 10px;
-        font:  bold 15px arial, verdana, sans-serif;
+        font:  bold 15px arial, sans-serif;
         color: #fef6ad;
+       
       }  
     
   .carousel-inner img {
